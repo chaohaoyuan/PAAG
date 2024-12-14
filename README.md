@@ -15,6 +15,17 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 - Python 2.8
 - The implementation is based on pytorch and pytorch-lightning. Please refer to the `requirements.txt` for detailed information.
 
+# Model Preparation
+
+TODO
+
+# Pretaining
+
+TODO
+
+# Downstream Task
+
+TODO
 
 # Reference
 
