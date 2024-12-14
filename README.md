@@ -14,3 +14,20 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 
 - Python 2.8
 - The implementation is based on pytorch and pytorch-lightning. Please refer to the `requirements.txt` for detailed information.
+
+
+# Reference
+
+Please kindly cite our paper if you find this paper and the codes helpful. :)
+
+```
+@misc{yuan2024annotationguidedproteindesignmultilevel,
+      title={Annotation-guided Protein Design with Multi-Level Domain Alignment}, 
+      author={Chaohao Yuan and Songyou Li and Geyan Ye and Yikun Zhang and Long-Kai Huang and Wenbing Huang and Wei Liu and Jianhua Yao and Yu Rong},
+      year={2024},
+      eprint={2404.16866},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.QM},
+      url={https://arxiv.org/abs/2404.16866}, 
+}
+```
