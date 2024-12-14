@@ -1,8 +1,8 @@
 # Annotation-guided Protein Design with Multi-Level Domain Alignment (KDD 2025)
 
-Authors: Chaohao Yuan, Songyou Li, Geyan Ye^#^, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong^*^
+Authors: Chaohao Yuan, Songyou Li, Geyan Ye<sup>#</sup>, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong<sup>*</sup>
 
-^#^ Project Lead, ^*^ Corresponding Author.
+<sup>#</sup> Project Lead, <sup>*</sup> Corresponding Author.
 
 This is the official implementation of the work: Annotation-guided Protein Design with Multi-Level Domain Alignment, which has been accepted by KDD 2025.
 
