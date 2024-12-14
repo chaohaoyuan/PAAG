@@ -1,13 +1,15 @@
 # Annotation-guided Protein Design with Multi-Level Domain Alignment (KDD 2025)
 
-Chaohao Yuan, Songyou Li, Geyan Ye, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong 
+Authors: Chaohao Yuan, Songyou Li, Geyan Ye^#^, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong^*^
+
+^#^ Project Lead, ^*^ Corresponding Author.
 
 This is the official implementation of the work: Annotation-guided Protein Design with Multi-Level Domain Alignment, which has been accepted by KDD 2025.
 
 - [Paper](https://arxiv.org/abs/2404.16866)
 - [Project Page](https://ychaohao.github.io/PAAG/)
-- [Datasets](https://huggingface.co/datasets/ychaohao/ProtAnnotation)
-- [Model Weights](https://huggingface.co/ychaohao/PAAG)
+- [Datasets on HuggingFace](https://huggingface.co/datasets/ychaohao/ProtAnnotation)
+- [Checkpoints on Huggingface](https://huggingface.co/ychaohao/PAAG)
 
 
 # Requirement
@@ -17,15 +19,15 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 
 # Model Preparation
 
-This part will be finished very soon!
+TODO
 
 # Pretaining
 
-This part will be finished very soon!
+TODO
 
 # Downstream Task
 
-This part will be finished very soon!
+TODO
 
 # Reference
 
