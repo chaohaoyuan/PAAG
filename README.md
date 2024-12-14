@@ -13,4 +13,4 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 # Requirement
 
 - Python 2.8
-- The implementation is based on pytorch and pytorch-lightning. Please refer `requirements.txt` for detailed information.
+- The implementation is based on pytorch and pytorch-lightning. Please refer to the `requirements.txt` for detailed information.
