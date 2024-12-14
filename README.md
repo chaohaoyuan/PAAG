@@ -17,15 +17,15 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 
 # Model Preparation
 
-TODO
+This part will be finished very soon!
 
 # Pretaining
 
-TODO
+This part will be finished very soon!
 
 # Downstream Task
 
-TODO
+This part will be finished very soon!
 
 # Reference
 
