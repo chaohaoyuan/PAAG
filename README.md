@@ -17,17 +17,23 @@ This is the official implementation of the work: Annotation-guided Protein Desig
 - Python 3.8
 - The implementation is based on pytorch and pytorch-lightning. Please refer to the `requirements.txt` for detailed information.
 
-# Model Preparation
+# Mode & Data Preparation
 
-TODO
+We provide the ProtAnnotation Dataset in [Huggingface](https://huggingface.co/datasets/ychaohao/ProtAnnotation). Please download the dataset and move it under `./data` folder.
+
+`python model_download.py` will help to fetch the pretrained SciBert and ProtBert from Huggingface. We store the checkpoint to the future alignment.
 
 # Pretaining
 
-TODO
+`python pretrain_pl.py --config './configs/pretrain_full_dataset.yaml'` Please modify the number of GPUs and machines to accommodate your own GPU environments. Pytorch-lightning allows multi-GPU training by DDP.
 
 # Downstream Task
 
-TODO
+`python pretrain_downstream_pl.py` The file is to design the protein with given prompts.
+
+# Evaluation
+
+Coming soon!
 
 # Reference
 
