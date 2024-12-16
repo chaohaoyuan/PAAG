@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader, Dataset
 from dataset import Uniprot_LocationDataset
 from models.paag_pretrain_pl import paag_pretrain, paag_pretrain_partial_local
 import utils
-from utils import warmup_lr_schedule, step_lr_schedule, build_paag_args, freeze_network, cosine_lr_schedule
+from utils import build_paag_args, freeze_network
 import wandb
 from pytorch_lightning.loggers import WandbLogger
 from sklearn.model_selection import train_test_split

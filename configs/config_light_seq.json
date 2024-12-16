@@ -10,7 +10,9 @@
   "intermediate_size": 4096,
   "max_position_embeddings": 40000,
   "num_attention_heads": 16,
-  "num_hidden_layers": 30,
+  "num_hidden_layers": 15,
   "type_vocab_size": 2,
-  "vocab_size": 30
+  "vocab_size": 30,
+  "encoder_width": 768,
+  "add_cross_attention": true
 }

@@ -7,12 +7,8 @@ This is the official implementation of the paper:
 >
 > <sup>#</sup> Project Lead, <sup>*</sup> Corresponding Author.
 
-
-
-
 <p align="center"><img width="75%" src="framework.png" /></p>
 <p align="center"><em>The framework of PAAG.</em></p>
-
 
 - [Paper](https://arxiv.org/abs/2404.16866)
 - [Project Page](https://ychaohao.github.io/PAAG/)
@@ -37,13 +33,29 @@ We provide the ProtAnnotation Dataset in [Huggingface](https://huggingface.co/da
 
 Please modify the number of GPUs and machines to accommodate your own GPU environments. Pytorch-lightning allows multi-GPU training by DDP.
 
-# Downstream Task
+# Fine-tuning
 
-`python pretrain_downstream_pl.py` The file is to design the protein with given prompts.
+We do not direct utilize the `pretrain_pl.py` is because we need to additionally change the queue inside the model.
+
+`python finetune_pl.py --config './configs/finetune.yaml'` 
+
+# Protein Design
+
+`python pretrain_downstream_pl.py` The command is to design the protein with given prompts.
 
 # Evaluation
 
+## The Evaluation of Property Prediction
+
 Coming soon!
+
+## The Evaluation of Unconditional Protein Geration
+
+Coming soon!
+
+## The Evaluation of Conditional Protein Geration
+
+In this task, we controllably generation proteins with functional domains. Therefore, we employ Pfam to evaluate success rate. The detailed explaination of installation and evaluation codes can be found in folder `./evaluation/conditional`. Please refer to `./evaluation/conditional/README.md` for more information.
 
 # Reference
 
@@ -60,3 +72,7 @@ Please kindly cite our paper if you find this paper and the codes helpful. :)
       url={https://arxiv.org/abs/2404.16866}, 
 }
 ```
+
+# Acknowledgement
+
+We implement parameters sharing from the codes of [BLIP](https://github.com/salesforce/BLIP). We thank the authors for their great work and open-sourcing the code.

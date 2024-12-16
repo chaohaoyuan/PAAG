@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     pred_writer = CustomWriter(output_dir=output_path, write_interval="epoch")
 
-    output_path = "../saved_model/paag.ckpt"
+    output_path = "../weights/paag.ckpt"
     model = PAAG_Pretrain.load_from_checkpoint(
         output_path,
         map_location="cpu",

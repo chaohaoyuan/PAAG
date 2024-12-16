@@ -9,7 +9,7 @@ freeze_seq: false
 
 # optimizer
 weight_decay: 0.05
-init_lr: 3e-5
+init_lr: 1e-5
 max_epoch: 100
 
 
@@ -18,11 +18,14 @@ seq_config: 'config_seq.json'
 
 corrupt_strategy: 'none'
 match: 'partial_local_align'
+ab: 'finetune'
 
-dataset: 'uniprot_location'
+dataset: 'localization_v9'
 
 corrupt_percentage: 0
 
 modified_decoder: false
 
-name: '16384_lower_case_partial_textual_local_16card_ddpbf16_full_3e-5_1_layer_flexible_length_decoder'
+name: 'ft_localization_v9'
+
+num_of_layer: 1
