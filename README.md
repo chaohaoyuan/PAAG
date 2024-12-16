@@ -55,7 +55,11 @@ Coming soon!
 
 ## The Evaluation of Conditional Protein Geration
 
-In this task, we controllably generation proteins with functional domains. Therefore, we employ Pfam to evaluate success rate. The detailed explaination of installation and evaluation codes can be found in folder `./evaluation/conditional`. Please refer to `./evaluation/conditional/README.md` for more information.
+In this task, we controllably generation proteins with functional domains. 
+
+Therefore, we employ Pfam to evaluate success rate. The detailed explaination of installation and evaluation codes can be found in folder `./evaluation/conditional`. 
+
+Please refer to `./evaluation/conditional/README.md` for more information.
 
 # Reference
 
