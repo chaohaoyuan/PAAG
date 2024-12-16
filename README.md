@@ -1,10 +1,17 @@
-# Annotation-guided Protein Design with Multi-Level Domain Alignment (KDD 2025)
+<h1 align="center"> Annotation-guided Protein Design with Multi-Level Domain Alignment (KDD 2025) </a></h2>
 
-Authors: Chaohao Yuan, Songyou Li, Geyan Ye<sup>#</sup>, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong<sup>*</sup>
+This is the official implementation of the paper:
+> Annotation-guided Protein Design with Multi-Level Domain Alignment
+>
+> Chaohao Yuan, Songyou Li, Geyan Ye<sup>#</sup>, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong<sup>*</sup>
+> <sup>#</sup> Project Lead, <sup>*</sup> Corresponding Author.
 
-<sup>#</sup> Project Lead, <sup>*</sup> Corresponding Author.
 
-This is the official implementation of the work: Annotation-guided Protein Design with Multi-Level Domain Alignment, which has been accepted by KDD 2025.
+
+
+<p align="center"><img width="75%" src="framework.png" /></p>
+<p align="center"><em>The framework of PAAG.</em></p>
+
 
 - [Paper](https://arxiv.org/abs/2404.16866)
 - [Project Page](https://ychaohao.github.io/PAAG/)
