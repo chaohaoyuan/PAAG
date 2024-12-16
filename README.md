@@ -4,6 +4,7 @@ This is the official implementation of the paper:
 > Annotation-guided Protein Design with Multi-Level Domain Alignment
 >
 > Chaohao Yuan, Songyou Li, Geyan Ye<sup>#</sup>, Yikun Zhang, Long-Kai Huang, Wenbing Huang, Wei Liu, Jianhua Yao, Yu Rong<sup>*</sup>
+>
 > <sup>#</sup> Project Lead, <sup>*</sup> Corresponding Author.
 
 
