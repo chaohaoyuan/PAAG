@@ -33,7 +33,9 @@ We provide the ProtAnnotation Dataset in [Huggingface](https://huggingface.co/da
 
 # Pretaining
 
-`python pretrain_pl.py --config './configs/pretrain_full_dataset.yaml'` Please modify the number of GPUs and machines to accommodate your own GPU environments. Pytorch-lightning allows multi-GPU training by DDP.
+`python pretrain_pl.py --config './configs/pretrain_full_dataset.yaml'` 
+
+Please modify the number of GPUs and machines to accommodate your own GPU environments. Pytorch-lightning allows multi-GPU training by DDP.
 
 # Downstream Task
 
