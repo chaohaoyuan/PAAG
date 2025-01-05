@@ -1,0 +1,48 @@
+output_dir: {{ output_path }}
+checkpoint: {{ checkpoint }}
+
+dataset:
+  class: {{ dataset }} # BinaryLocalization / SubcellularLocalization
+  path: #
+  atom_feature: null
+  bond_feature: null
+  transform:
+    class: Compose
+    transforms:
+      - class: TruncateProtein
+        max_length: 550
+        random: True
+      - class: ProteinView
+        view: "residue"
+
+task:
+  class: PropertyPrediction
+  model:
+    class: PretrainESM
+    path: #
+    model: ESM-2-650M
+    mask_modeling: False
+    output_dim: 512
+    readout: pooler
+    use_proj: True
+  criterion: ce
+  metric: ["acc", "mcc"]
+  num_mlp_layer: 2
+  num_class: {{ num_class }}
+  mlp_dropout: {{ dropout }}
+
+eval_metric: accuracy
+
+optimizer:
+  class: Adam
+  lr: {{ learning_rate }}
+  weight_decay: {{ weight_decay }}
+
+lr_ratio: 0.15
+
+engine:
+  gpus: [0, 1, 2, 3]
+  batch_size: {{ batch_size }}
+
+train:
+  num_epoch: 100

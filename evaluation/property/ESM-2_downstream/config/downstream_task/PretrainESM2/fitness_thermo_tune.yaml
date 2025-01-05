@@ -1,0 +1,48 @@
+output_dir: {{ output_path }}
+checkpoint: {{ checkpoint }}
+
+dataset:
+  class: td_datasets.Thermostability
+  path: #
+  atom_feature: null
+  bond_feature: null
+  transform:
+    class: Compose
+    transforms:
+      - class: TruncateProtein
+        max_length: 1022
+        random: False
+      - class: ProteinView
+        view: "residue"
+
+task:
+  class: PropertyPrediction
+  model:
+    class: PretrainESM
+    path: #
+    model: ESM-2-650M
+    mask_modeling: False
+    output_dim: 512
+    readout: pooler
+    use_proj: True
+  criterion: mse
+  metric: ["mae", "rmse", "spearmanr"]
+  normalization: False
+  num_mlp_layer: 2
+  mlp_dropout: {{ dropout }}
+
+eval_metric: spearmanr
+
+optimizer:
+  class: Adam
+  lr: {{ learning_rate }}
+  weight_decay: {{ weight_decay }}
+
+lr_ratio: 0.02
+
+engine:
+  gpus: [0, 1, 2, 3]
+  batch_size: {{ batch_size }} # td_datasets.Thermostability: 1; others: 6
+
+train:
+  num_epoch: 100
