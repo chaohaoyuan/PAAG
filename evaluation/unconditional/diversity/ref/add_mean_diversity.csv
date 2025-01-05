@@ -1,5 +1,0 @@
-file,mean_diversity,num_query_proteins
-protbert_ft_epoch5_3_300ig,0.683,300
-protbert_ft_epoch5_3_300zinc,0.649,300
-paag_finetune_600none,0.822,600
-paag_unconditional_rep1_600none,0.811,600
