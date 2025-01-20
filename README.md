@@ -47,11 +47,11 @@ We do not direct utilize the `pretrain_pl.py` is because we need to additionally
 
 ## The Evaluation of Property Prediction
 
-Coming soon!
+Please refer to `./evaluation/property/README.md` for more information.
 
 ## The Evaluation of Unconditional Protein Geration
 
-Coming soon!
+Please refer to `./evaluation/unconditional/README.md` for more information.
 
 ## The Evaluation of Conditional Protein Geration
 
