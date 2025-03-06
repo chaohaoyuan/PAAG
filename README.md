@@ -41,7 +41,7 @@ We do not direct utilize the `pretrain_pl.py` is because we need to additionally
 
 # Protein Design
 
-`python pretrain_downstream_pl.py` The command is to design the protein with given prompts.
+`python paag_downstream_pl.py` The command is to design the protein with given prompts.
 
 # Evaluation
 
