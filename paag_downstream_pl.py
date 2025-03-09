@@ -41,7 +41,7 @@ class CustomWriter(BasePredictionWriter):
 if __name__ == '__main__':
     output_path = "./data/paag_generated_data.jsonl"
 
-    dataset_test = pd.read_json(path_or_buf="data/test_ig_zinc.jsonl", lines=True)
+    dataset_test = pd.read_json(path_or_buf="data/toy_dataset.jsonl", lines=True)
     dataset_test = TextSeqPair(dataset_test)
 
     batch_size = 1
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     trainer = pl.Trainer(
         accelerator='gpu',
         strategy='ddp',
-        devices=8,
+        devices=1, # the number of gpus
         num_nodes=1,
         callbacks=[pred_writer],
         precision="bf16-mixed",
