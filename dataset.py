@@ -15,7 +15,7 @@ class TextSeqPair(Dataset):
         self.json_file = json_file
 
     def __getitem__(self, idx):
-        return self.json_file.iloc[idx, 1], self.json_file.iloc[idx, 0]
+        return self.json_file.iloc[idx, 4]['value'], self.json_file.iloc[idx, 1]
 
     def __len__(self):
         return len(self.json_file)
