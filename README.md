@@ -21,7 +21,7 @@ This is the official implementation of the paper:
 - Python 3.8
 - The implementation is based on pytorch and pytorch-lightning. Please refer to the `requirements.txt` for detailed information.
 
-# Mode & Data Preparation
+# Model & Data Preparation
 
 We provide the ProtAnnotation Dataset in [Huggingface](https://huggingface.co/datasets/ychaohao/ProtAnnotation). Please download the dataset and move it under `./data` folder.
 
