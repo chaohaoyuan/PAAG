@@ -66,14 +66,11 @@ Please refer to `./evaluation/conditional/README.md` for more information.
 Please kindly cite our paper if you find this paper and the codes helpful. :)
 
 ```
-@misc{yuan2024annotationguidedproteindesignmultilevel,
-      title={Annotation-guided Protein Design with Multi-Level Domain Alignment}, 
-      author={Chaohao Yuan and Songyou Li and Geyan Ye and Yikun Zhang and Long-Kai Huang and Wenbing Huang and Wei Liu and Jianhua Yao and Yu Rong},
-      year={2024},
-      eprint={2404.16866},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.QM},
-      url={https://arxiv.org/abs/2404.16866}, 
+@article{yuan2024annotation,
+  title={Annotation-guided Protein Design with Multi-Level Domain Alignment},
+  author={Yuan, Chaohao and Li, Songyou and Ye, Geyan and Zhang, Yikun and Huang, Long-Kai and Huang, Wenbing and Liu, Wei and Yao, Jianhua and Rong, Yu},
+  journal={arXiv preprint arXiv:2404.16866},
+  year={2024}
 }
 ```
 
