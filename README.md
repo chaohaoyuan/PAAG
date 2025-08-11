@@ -66,11 +66,12 @@ Please refer to `./evaluation/conditional/README.md` for more information.
 Please kindly cite our paper if you find this paper and the codes helpful. :)
 
 ```
-@article{yuan2024annotation,
-  title={Annotation-guided Protein Design with Multi-Level Domain Alignment},
+@inproceedings{yuan2025annotation,
+  title={Annotation-guided protein design with multi-level domain alignment},
   author={Yuan, Chaohao and Li, Songyou and Ye, Geyan and Zhang, Yikun and Huang, Long-Kai and Huang, Wenbing and Liu, Wei and Yao, Jianhua and Rong, Yu},
-  journal={arXiv preprint arXiv:2404.16866},
-  year={2024}
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1},
+  pages={1855--1866},
+  year={2025}
 }
 ```
 
